@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Lakeside Haven Hotel</title>
+
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#24313a;background:#f6f8f7}
+header{background:#123c3a;color:white;padding:24px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+header h1{margin:0;font-size:1.55rem}nav{display:flex;flex-wrap:wrap;gap:12px}nav a{color:white;text-decoration:none;font-weight:bold;padding:6px 8px;border-radius:5px}nav a:hover{background:#28716a}
+main{max-width:1100px;margin:auto;padding:28px 20px 50px}.hero{overflow:hidden;border-radius:14px;background:#dce8e5}
+.hero img{width:100%;height:360px;object-fit:cover;display:block}.hero-text{padding:24px 28px;background:#e6efec}
+h2{color:#14514b;margin-top:0}h3{color:#17635b}img.content-img{width:100%;max-height:300px;object-fit:cover;border-radius:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin:20px 0}
+.card{background:white;border-radius:12px;padding:18px;box-shadow:0 3px 12px #102f2a12}.card img{width:100%;height:170px;object-fit:cover;border-radius:8px}
+table{width:100%;border-collapse:collapse;background:white;margin:18px 0}th,td{padding:12px;border:1px solid #cbd8d5;text-align:left}th{background:#dcebe6}
+.button{display:inline-block;background:#17635b;color:white;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:bold;margin:6px 5px 6px 0}
+footer{text-align:center;background:#123c3a;color:white;padding:18px}
+label{font-weight:bold;display:block;margin-top:12px}input,textarea,select{width:100%;padding:10px;border:1px solid #aebfba;border-radius:5px;margin-top:5px}
+@media(max-width:600px){header{padding:18px 5%}.hero img{height:230px}main{padding:20px 14px 35px}}
+</style>
+
+</head>
+<body>
+<header><h1>🌿 Lakeside Haven Hotel</h1><nav><a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="dining.html">Dining</a><a href="facilities.html">Facilities</a><a href="gallery.html">Gallery</a><a href="offers.html">Offers</a><a href="about.html">About Us</a><a href="contact.html" aria-current="page">Contact</a></nav></header>
+<main>
+
+<h2>Contact & Reservations</h2><p>Have a question about rooms, meals or facilities? Use the sample contact details below or fill in the demonstration form.</p>
+<div class="cards"><div class="card"><h3>Contact details</h3><p><b>Phone:</b> +256 700 000 000</p><p><b>Email:</b> hello@lakesidehaven.example</p><p><b>Location:</b> Lakeside district, Uganda (fictional)</p><p><b>Hours:</b> Reception concept: 24 hours</p></div><div class="card"><h3>Before you enquire</h3><p>Include your arrival date, departure date, number of guests and preferred room type.</p><a class="button" href="rooms.html">View rooms</a></div></div>
+<h2>Send an enquiry</h2><form action="#" method="get"><label for="fullname">Full name</label><input id="fullname" name="fullname" type="text" placeholder="Enter your name" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required><label for="room">Room preference</label><select id="room" name="room"><option>Standard Room</option><option>Deluxe Room</option><option>Lake View Suite</option></select><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell us about your visit"></textarea><button class="button" type="submit">Submit Enquiry</button></form><p><b>Note:</b> This is a front-end demonstration form. It does not send information to a real hotel.</p>
+
+</main>
+<footer><p><b>Lakeside Haven Hotel</b> · Relax, recharge, reconnect.</p><p>Website project demonstration · <a href="contact.html" style="color:#d9f3e9">Contact our team</a></p></footer>
+</body>
+</html>
